@@ -1,6 +1,6 @@
 <?php 
 header('Content-Type:text/html; charset=utf8');
-require_once('Connections/conn.php'); ?>
+require_once('connections/conn.php'); ?>
 <?php
 // Type of element to delete: Place = 1, Category =2, Service = 3
 $type=$_GET['delete'];
