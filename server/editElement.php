@@ -11,11 +11,11 @@ $element_id=$_GET['id'];
 //mysql_select_db($database, $link);
 
 if($type == "1"){ // Edit a place 
-header('Location: place_details.php?id=$element_id');
+header('Location: place_details.php?id=' . $element_id);
 }else if($type == "2"){ // Edit a place 
-header('Location: categories.php?id=$element_id');
+header('Location: categories.php?id=' . $element_id);
 }else if($type == "3"){
-header('Location: services.php?id=$element_id');
+header('Location: services.php?id=' . $element_id);
 }
 
 ?>

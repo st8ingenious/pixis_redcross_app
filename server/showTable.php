@@ -15,6 +15,7 @@ $type=$_GET['type'];
 <html>
 <head>
 	<title>Red Cross Patras</title>
+	<b><a style" href=./index.php>Αρχική</a></b>
 	<script>
 		function showPlaces() {
              if (window.XMLHttpRequest) {
@@ -35,6 +36,6 @@ $type=$_GET['type'];
 </head>
 <body>
 	<script>showPlaces();</script>
-	<div id="showPlacesOutput"></div>	
+	<div id="showPlacesOutput"></div>
 </body>
 <html>	
